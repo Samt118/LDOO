@@ -1,0 +1,48 @@
+*{
+	margin: 4px;
+	padding: 4px;
+	font-family: "arial";
+}
+
+body{
+	background:url(../imagenes/gg.jpg);
+}
+
+header, .main{
+	background: #e6e6e6;
+	width: 90%;
+	margin: auto;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+header nav{
+	background: ##e6e6e6;
+	overflow:hidden;
+}
+
+header nav ul{
+	list-style:none;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #001;
+	text-decoration: none;
+}
+
+p, h2, h4{
+	
+	line-height: 20px;
+}
+
+img{
+	border-radius: 5px;
+	box-shadow: 5px 5px 0px #FA8271;
+}
+

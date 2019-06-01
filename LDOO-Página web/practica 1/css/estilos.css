@@ -1,0 +1,72 @@
+{
+	margin: 4px;
+	padding: 4px;
+	font-family: "arial";
+	line-height: 20px;
+}
+body{
+	background: url(../imagenes/gg.jpg);
+
+}
+
+header, .main, aside, footer{
+	background: #e6e6e6;
+	width: 90%;
+	margin: auto;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+
+header nav{
+	background: #e6e6e6;
+	overflow:hidden;
+}
+
+header nav ul{
+	list-style:none;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #001;
+	text-decoration: none;
+}
+
+
+section aside nav ul{
+	list-style:none;
+}
+
+section aside nav ul li{
+	float: left;
+	padding: 43px;
+}
+
+section aside nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #001;
+	text-decoration: none;
+}
+
+h3, h2{
+	text-align: center;
+}
+
+h5{
+	text-align: center;
+}
+
+
+footer{
+	background: #001;
+	color:#fff;
+	clear:both;
+	padding:5px 0px;
+	text-align:center;
+}
